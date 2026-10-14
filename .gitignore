@@ -1,0 +1,19 @@
+# Local environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets; keep the placeholder template
+.env
+.env.*
+!.env.example
+
+# Local PDFs may be copyrighted or private
+/data/*.pdf
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
